@@ -50,4 +50,5 @@ function SimpleMSSQL(sqlConfig) {
 	};
 }
 
+SimpleMSSQL.SimpleMSSQL = SimpleMSSQL;
 module.exports = SimpleMSSQL;

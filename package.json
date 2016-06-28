@@ -1,7 +1,7 @@
 {
   "name": "simple-mssql",
   "description": "Simple mssql Interface",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Wen Chang",
     "email": "wchang28@hotmail.com"
