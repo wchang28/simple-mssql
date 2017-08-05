@@ -1,12 +1,13 @@
 {
   "name": "simple-mssql",
   "description": "Simple mssql Interface",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Wen Chang",
     "email": "wchang28@hotmail.com"
   },
   "main": "./js/index.js",
+  "typings": "./js/index.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",
