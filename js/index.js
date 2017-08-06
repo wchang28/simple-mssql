@@ -140,10 +140,10 @@ var SimpleMSSQL = (function (_super) {
         else
             return this.closeConnection();
     };
+    SimpleMSSQL.defaultOptions = { reconnectIntervalMS: 3000 };
+    SimpleMSSQL.NOT_CONNECTED_ERR = { error: 'internal-server-error', error_description: 'not connected to the database' };
     return SimpleMSSQL;
 }(events.EventEmitter));
-SimpleMSSQL.defaultOptions = { reconnectIntervalMS: 3000 };
-SimpleMSSQL.NOT_CONNECTED_ERR = { error: 'internal-server-error', error_description: 'not connected to the database' };
 exports.SimpleMSSQL = SimpleMSSQL;
 __export(require("mssql"));
 function get(sqlConfig, options) { return new SimpleMSSQL(sqlConfig, options); }
